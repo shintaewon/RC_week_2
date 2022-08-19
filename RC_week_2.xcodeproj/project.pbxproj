@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1D21BD28A946EE00095C79 /* ItemServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21BC28A946EE00095C79 /* ItemServiceViewController.swift */; };
+		5E1D21BF28A9470600095C79 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21BE28A9470600095C79 /* AlertViewController.swift */; };
+		5E1D21C128A9471700095C79 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21C028A9471700095C79 /* SettingViewController.swift */; };
+		5E1D21C328AA118600095C79 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21C228AA118600095C79 /* TransferViewController.swift */; };
+		5E1D21C528AA965E00095C79 /* SendingMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21C428AA965E00095C79 /* SendingMoneyViewController.swift */; };
+		5E1D21CB28AB6B3400095C79 /* AskContinuePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21CA28AB6B3400095C79 /* AskContinuePopupViewController.swift */; };
+		5E1D21CD28AB6B5000095C79 /* AskContinuePopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1D21CC28AB6B5000095C79 /* AskContinuePopupViewController.storyboard */; };
+		5E1D21CF28ABB29300095C79 /* ReaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21CE28ABB29300095C79 /* ReaskViewController.swift */; };
+		5E1D21D328ACAD9600095C79 /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21D228ACAD9600095C79 /* CompleteViewController.swift */; };
+		5E1D21D528AE4B0500095C79 /* AccountContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21D428AE4B0500095C79 /* AccountContainerViewController.swift */; };
+		5E1D21D728AE57F800095C79 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D21D628AE57F800095C79 /* ContainerViewController.swift */; };
 		5E4AE51F28A7C165004EB034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AE51E28A7C165004EB034 /* AppDelegate.swift */; };
 		5E4AE52128A7C165004EB034 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AE52028A7C165004EB034 /* SceneDelegate.swift */; };
 		5E4AE52328A7C165004EB034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AE52228A7C165004EB034 /* ViewController.swift */; };
@@ -16,6 +27,12 @@
 		5E4AE53628A7C166004EB034 /* RC_week_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AE53528A7C166004EB034 /* RC_week_2Tests.swift */; };
 		5E4AE54028A7C166004EB034 /* RC_week_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AE53F28A7C166004EB034 /* RC_week_2UITests.swift */; };
 		5E4AE54228A7C166004EB034 /* RC_week_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AE54128A7C166004EB034 /* RC_week_2UITestsLaunchTests.swift */; };
+		5E4AE55128A7C1BA004EB034 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AE55028A7C1BA004EB034 /* PopupViewController.swift */; };
+		5E4AE55328A7C1CA004EB034 /* PopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4AE55228A7C1CA004EB034 /* PopupViewController.storyboard */; };
+		5EB53DD028AE6F6000D43374 /* 01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB53DCC28AE6F6000D43374 /* 01.jpeg */; };
+		5EB53DD128AE6F6000D43374 /* 02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB53DCD28AE6F6000D43374 /* 02.jpeg */; };
+		5EB53DD228AE6F6000D43374 /* 03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB53DCE28AE6F6000D43374 /* 03.jpeg */; };
+		5EB53DD328AE6F6000D43374 /* 04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB53DCF28AE6F6000D43374 /* 04.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E1D21BC28A946EE00095C79 /* ItemServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemServiceViewController.swift; sourceTree = "<group>"; };
+		5E1D21BE28A9470600095C79 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		5E1D21C028A9471700095C79 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5E1D21C228AA118600095C79 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		5E1D21C428AA965E00095C79 /* SendingMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingMoneyViewController.swift; sourceTree = "<group>"; };
+		5E1D21CA28AB6B3400095C79 /* AskContinuePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskContinuePopupViewController.swift; sourceTree = "<group>"; };
+		5E1D21CC28AB6B5000095C79 /* AskContinuePopupViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AskContinuePopupViewController.storyboard; sourceTree = "<group>"; };
+		5E1D21CE28ABB29300095C79 /* ReaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaskViewController.swift; sourceTree = "<group>"; };
+		5E1D21D228ACAD9600095C79 /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
+		5E1D21D428AE4B0500095C79 /* AccountContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountContainerViewController.swift; sourceTree = "<group>"; };
+		5E1D21D628AE57F800095C79 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		5E4AE51B28A7C165004EB034 /* RC_week_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RC_week_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4AE51E28A7C165004EB034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E4AE52028A7C165004EB034 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +77,12 @@
 		5E4AE53B28A7C166004EB034 /* RC_week_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RC_week_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4AE53F28A7C166004EB034 /* RC_week_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_week_2UITests.swift; sourceTree = "<group>"; };
 		5E4AE54128A7C166004EB034 /* RC_week_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_week_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E4AE55028A7C1BA004EB034 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		5E4AE55228A7C1CA004EB034 /* PopupViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopupViewController.storyboard; sourceTree = "<group>"; };
+		5EB53DCC28AE6F6000D43374 /* 01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpeg; sourceTree = "<group>"; };
+		5EB53DCD28AE6F6000D43374 /* 02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpeg; sourceTree = "<group>"; };
+		5EB53DCE28AE6F6000D43374 /* 03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpeg; sourceTree = "<group>"; };
+		5EB53DCF28AE6F6000D43374 /* 04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +133,24 @@
 		5E4AE51D28A7C165004EB034 /* RC_week_2 */ = {
 			isa = PBXGroup;
 			children = (
+				5EB53DCB28AE6F6000D43374 /* images */,
 				5E4AE51E28A7C165004EB034 /* AppDelegate.swift */,
 				5E4AE52028A7C165004EB034 /* SceneDelegate.swift */,
 				5E4AE52228A7C165004EB034 /* ViewController.swift */,
+				5E1D21C228AA118600095C79 /* TransferViewController.swift */,
+				5E4AE55028A7C1BA004EB034 /* PopupViewController.swift */,
+				5E1D21BC28A946EE00095C79 /* ItemServiceViewController.swift */,
+				5E1D21D428AE4B0500095C79 /* AccountContainerViewController.swift */,
+				5E1D21D628AE57F800095C79 /* ContainerViewController.swift */,
+				5E1D21BE28A9470600095C79 /* AlertViewController.swift */,
+				5E1D21C028A9471700095C79 /* SettingViewController.swift */,
+				5E1D21C428AA965E00095C79 /* SendingMoneyViewController.swift */,
+				5E1D21CA28AB6B3400095C79 /* AskContinuePopupViewController.swift */,
+				5E1D21CE28ABB29300095C79 /* ReaskViewController.swift */,
+				5E1D21D228ACAD9600095C79 /* CompleteViewController.swift */,
 				5E4AE52428A7C165004EB034 /* Main.storyboard */,
+				5E4AE55228A7C1CA004EB034 /* PopupViewController.storyboard */,
+				5E1D21CC28AB6B5000095C79 /* AskContinuePopupViewController.storyboard */,
 				5E4AE52728A7C166004EB034 /* Assets.xcassets */,
 				5E4AE52928A7C166004EB034 /* LaunchScreen.storyboard */,
 				5E4AE52C28A7C166004EB034 /* Info.plist */,
@@ -125,6 +173,18 @@
 				5E4AE54128A7C166004EB034 /* RC_week_2UITestsLaunchTests.swift */,
 			);
 			path = RC_week_2UITests;
+			sourceTree = "<group>";
+		};
+		5EB53DCB28AE6F6000D43374 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5EB53DCC28AE6F6000D43374 /* 01.jpeg */,
+				5EB53DCD28AE6F6000D43374 /* 02.jpeg */,
+				5EB53DCE28AE6F6000D43374 /* 03.jpeg */,
+				5EB53DCF28AE6F6000D43374 /* 04.jpeg */,
+			);
+			name = images;
+			path = ../../../../Downloads/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +291,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB53DD028AE6F6000D43374 /* 01.jpeg in Resources */,
+				5E1D21CD28AB6B5000095C79 /* AskContinuePopupViewController.storyboard in Resources */,
+				5E4AE55328A7C1CA004EB034 /* PopupViewController.storyboard in Resources */,
+				5EB53DD128AE6F6000D43374 /* 02.jpeg in Resources */,
 				5E4AE52B28A7C166004EB034 /* LaunchScreen.storyboard in Resources */,
 				5E4AE52828A7C166004EB034 /* Assets.xcassets in Resources */,
+				5EB53DD328AE6F6000D43374 /* 04.jpeg in Resources */,
+				5EB53DD228AE6F6000D43374 /* 03.jpeg in Resources */,
 				5E4AE52628A7C165004EB034 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +324,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1D21D528AE4B0500095C79 /* AccountContainerViewController.swift in Sources */,
+				5E1D21BD28A946EE00095C79 /* ItemServiceViewController.swift in Sources */,
+				5E1D21D728AE57F800095C79 /* ContainerViewController.swift in Sources */,
+				5E1D21CF28ABB29300095C79 /* ReaskViewController.swift in Sources */,
+				5E1D21BF28A9470600095C79 /* AlertViewController.swift in Sources */,
+				5E1D21CB28AB6B3400095C79 /* AskContinuePopupViewController.swift in Sources */,
 				5E4AE52328A7C165004EB034 /* ViewController.swift in Sources */,
+				5E1D21C328AA118600095C79 /* TransferViewController.swift in Sources */,
+				5E1D21C528AA965E00095C79 /* SendingMoneyViewController.swift in Sources */,
 				5E4AE51F28A7C165004EB034 /* AppDelegate.swift in Sources */,
 				5E4AE52128A7C165004EB034 /* SceneDelegate.swift in Sources */,
+				5E1D21C128A9471700095C79 /* SettingViewController.swift in Sources */,
+				5E4AE55128A7C1BA004EB034 /* PopupViewController.swift in Sources */,
+				5E1D21D328ACAD9600095C79 /* CompleteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

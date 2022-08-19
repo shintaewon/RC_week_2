@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Popup View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="popupVC" id="Y6W-OH-hqX" customClass="PopupViewController" customModule="RC_week_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jvs-6w-Fdr">
+                                <rect key="frame" x="0.0" y="522" width="414" height="374"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="카카오뱅크" translatesAutoresizingMaskIntoConstraints="NO" id="nec-tE-5B8">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="304"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="304" id="lQK-2l-blZ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FA5-UJ-kVf">
+                                        <rect key="frame" x="29" y="320" width="88" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="다시보지 않기">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closePopupBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="gJq-I4-Kn4"/>
+                                            <action selector="neverOpenBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="sXn-sP-e49"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y34-7z-v5G">
+                                        <rect key="frame" x="355" y="320" width="30" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="닫기">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closePopupBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="l4R-VY-Bzs"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="nec-tE-5B8" firstAttribute="top" secondItem="Jvs-6w-Fdr" secondAttribute="top" id="AKh-Ot-BpL"/>
+                                    <constraint firstItem="FA5-UJ-kVf" firstAttribute="top" secondItem="nec-tE-5B8" secondAttribute="bottom" constant="16" id="UEc-XK-UBC"/>
+                                    <constraint firstAttribute="trailing" secondItem="y34-7z-v5G" secondAttribute="trailing" constant="29" id="Vfp-Dl-mVu"/>
+                                    <constraint firstAttribute="trailing" secondItem="nec-tE-5B8" secondAttribute="trailing" id="WpW-Dc-mNf"/>
+                                    <constraint firstItem="nec-tE-5B8" firstAttribute="leading" secondItem="Jvs-6w-Fdr" secondAttribute="leading" id="YbZ-MI-nFq"/>
+                                    <constraint firstAttribute="height" constant="374" id="eHb-GU-N15"/>
+                                    <constraint firstItem="y34-7z-v5G" firstAttribute="centerY" secondItem="FA5-UJ-kVf" secondAttribute="centerY" id="hj7-6z-dxg"/>
+                                    <constraint firstItem="FA5-UJ-kVf" firstAttribute="leading" secondItem="Jvs-6w-Fdr" secondAttribute="leading" constant="29" id="snB-mp-feo"/>
+                                    <constraint firstItem="y34-7z-v5G" firstAttribute="top" secondItem="nec-tE-5B8" secondAttribute="bottom" constant="16" id="vq7-A7-D2U"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jvs-6w-Fdr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Loy-Dk-kbg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Jvs-6w-Fdr" secondAttribute="trailing" id="brS-dw-OYd"/>
+                            <constraint firstAttribute="bottom" secondItem="Jvs-6w-Fdr" secondAttribute="bottom" id="cAV-Th-Lil"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="카카오뱅크" width="1069" height="756"/>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
